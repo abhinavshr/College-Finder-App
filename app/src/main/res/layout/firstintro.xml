@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/gradient_background">
+
+        <ImageView
+            android:id="@+id/ivCollegeFinderLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/welcome"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:contentDescription="@string/welcome_image_description"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="120dp"
+            android:maxWidth="200dp"
+            android:maxHeight="150dp" />
+
+        <TextView
+            android:id="@+id/tvWelcomeMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_message"
+            android:textColor="#333333"
+            app:layout_constraintTop_toBottomOf="@id/ivCollegeFinderLogo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="25sp"
+            android:paddingHorizontal="20dp"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:layout_marginTop="16dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

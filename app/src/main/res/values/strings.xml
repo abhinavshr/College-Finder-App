@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CollegeFinder</string>
+    <string name="select">Select Location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome to CollegeFinder!</string>
+    <string name="about_App">Discover the top colleges and institutions designed specifically for you.</string>
+    <string name="home_page">Go to home page</string>
+    <string name="Footer">About Us | Contact | Privacy Policy</string>
+    <string name="welcome_image_description">Welcome image</string>
+    <string name="welcome_message">Welcome to College Finder App</string>
+    <string name="Search"><![CDATA[Search & Discover]]></string>
+    <string name="about_Search">Locate College around you and choose the college you want to study</string>
+    <string name="next">Next</string>
+    <string name="Multiple_College">Discover a wide range of college options with minimal effort.</string>
+    <string name="find_College">Find College</string>
+    <string name="logo">LOGO</string>
+    <string name="college_finder">College Finder</string>
+    <string name="discover_colleges">Discover colleges with ease</string>
+    <string name="username">Username:</string>
+    <string name="userName">Username</string>
+    <string name="password">Password:</string>
+    <string name="Password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_account">Don\'t Have Account?</string>
+    <string name="signup">SignUp?</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB"
+    tools:context=".View.Home">
+
+    <!-- Hero Section -->
+    <ImageView
+        android:id="@+id/heroImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hero_image"
+        android:layout_alignParentTop="true"
+        tools:ignore="ContentDescription" />
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heroImage"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/welcome"
+        android:textColor="#333"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font" />
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/taglineText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/about_App"
+        android:textColor="#777"
+        android:textSize="18sp"
+        android:lineSpacingMultiplier="1.2"
+        android:fontFamily="@font/font" />
+
+    <!-- Go to Home Page Button -->
+    <Button
+        android:id="@+id/goToHomePageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/taglineText"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/home_page"
+        android:backgroundTint="@color/Orange"
+        android:textColor="#fff"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/font" />
+
+    <!-- Footer Section -->
+    <LinearLayout
+        android:id="@+id/footerSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <!-- Footer Links -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Footer"
+            android:textColor="#888"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/font" />
+    </LinearLayout>
+
+</RelativeLayout>

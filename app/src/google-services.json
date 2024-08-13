@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "876485996478",
+    "project_id": "college-finder-cd8e8",
+    "storage_bucket": "college-finder-cd8e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876485996478:android:0a0848cbfb5491f8ff93ef",
+        "android_client_info": {
+          "package_name": "com.example.collegefinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAbHPkaWugDcJb0RjJi08o-PfVEERszOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
